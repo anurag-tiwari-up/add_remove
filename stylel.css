@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 350px;
+    width: 250px;
+    padding: 30px 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#name{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+#status{
+    font-size: 25px;
+    font-weight: 600;
+    color: red;
+    margin: 20px;
+}
+
+.btn button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: magenta;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+}
